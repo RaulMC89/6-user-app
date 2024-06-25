@@ -15,12 +15,12 @@ export const UsersApp = () => {
     return (
         <div className="container my-4">
             <h2>Log In and Users App</h2>
-            <div className="col">
-                <div className="row">
-                    <UsersList users={initialUsers}/>
-                </div>
-                <div className="row">
+            <div className="row">
+                <div className="col">
                     <UserForm />
+                </div>
+                <div className="col">
+                    <UsersList users={initialUsers}/>
                 </div>
             </div>
         </div>
